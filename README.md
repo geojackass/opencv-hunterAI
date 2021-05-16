@@ -1,4 +1,4 @@
-# opencv-docker
+# opencv-hunting
 Docker container for opencv and tensorflow
 
 ### prerequisties
@@ -23,3 +23,6 @@ docker-compose exec jupyter_lab bash
 ```
 localhost(IP):8080
 ```
+
+#### DataSet
+- イノシシ・野生動物の写真セット(学習用)…
