@@ -16,7 +16,7 @@ docker-compose up -d
 
 - login from host to docker
 ```
-docker-compose exec jupyter_lab bash
+docker-compose exec opencv_hunter_ai bash
 ```
 
 - USE Port 8080
