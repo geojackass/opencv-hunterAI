@@ -1,6 +1,8 @@
 # Anaconda image
 FROM continuumio/anaconda3:2020.11
 
+LABEL MAINTAINER SHOICHI OTOMO <geojackass.shoichi0129@gmail.com>
+
 #日本語フォントとライブラリをインストール
 RUN pip install --upgrade pip && \
     pip install graphviz pydotplus
