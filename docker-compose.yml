@@ -5,7 +5,7 @@ services:
       context: .
       #イメージ元はdockerhubではなく，Dirのdockerfileそのものを参照する
       dockerfile: Dockerfile
-    image: hunterAI
+    image: hunter_ai
     ports:
     - "8080:8888"
     volumes:
