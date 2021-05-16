@@ -1,4 +1,4 @@
-# opencv-hunting
+# opencv-hunterAI
 Docker container for opencv and tensorflow
 
 ### prerequisties
