@@ -1,0 +1,12 @@
+version: '3'
+services:
+  jupyter_lab:
+    build:
+      context: .
+      #イメージ元はdockerhubではなく，Dirのdockerfileそのものを参照する
+      dockerfile: Dockerfile
+    image: anaconda_image
+    ports:
+    - "8080:8888"
+    volumes:
+    - .:/workdir
