@@ -23,6 +23,3 @@ docker-compose exec opencv_hunter_ai bash
 ```
 localhost(IP):8080
 ```
-
-#### DataSet
-- イノシシ・野生動物の写真セット(学習用)…
